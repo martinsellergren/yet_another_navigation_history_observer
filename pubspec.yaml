@@ -1,0 +1,19 @@
+name: yet_another_navigation_history_observer
+description: "A NavigatorObserver that collects the route history."
+version: 0.1.0
+repository: https://github.com/martinsellergren/yet_another_navigation_history_observer
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  freezed_annotation: ^2.4.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  freezed: ^2.5.7
+  build_runner: ^2.4.15

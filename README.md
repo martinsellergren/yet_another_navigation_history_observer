@@ -1,0 +1,3 @@
+This is a [NavigatorObserver](https://api.flutter.dev/flutter/widgets/NavigatorObserver-class.html) that records all navigation events that occur and exposes this navigation history, as well as a event stream, the current navigator stack and the current top route.
+
+It's similar to the package [navigation_history_observer](https://pub.dev/packages/navigation_history_observer) but offers some improved type safety, proper disposing and a way to reset the history if e.g the MaterialApp is disposed and recreated.
